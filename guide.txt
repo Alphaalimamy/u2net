@@ -1,0 +1,6 @@
+
+1. Modify the u2net_test.spec File
+ --> datas=[('saved_models/u2net_mushroom_1000_4500_8000.pth', 'saved_models/u2net_mushroom_1000_4500_8000.pth')],
+
+2. Recompile with PyInstaller
+  --> pyinstaller u2net_test.spec
